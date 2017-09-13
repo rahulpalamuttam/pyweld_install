@@ -1,0 +1,13 @@
+matrix:
+  include:
+    - sudo: required
+      services:
+        - docker
+    - os: 
+      - osx
+      - linux
+
+build_script:
+  - ./install.sh
+
+      	  
